@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<style>
+		[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  			display: none !important;
+		}
+		</style>
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body ng-app="amazonImdb">
+		<a href="#/home">Home</a>
+		<div ng-view ng-cloak></div>
+
+		<script src="bower_components/angular/angular.min.js" ></script>
+		<script src="bower_components/angular-route/angular-route.min.js" ></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+		
+		<script src="app/app.module.js" ></script>
+		<script src="app/app.routes.js" ></script>
+		<script src="app/constants.js" ></script>
+		<script src="app/services/dataService.js" ></script>
+		<script src="app/directives/errorSrcDirective.js" ></script>
+		<script src="app/controllers/homeController.js" ></script>
+		<script src="app/controllers/actorController.js" ></script>
+		<script src="app/controllers/movieController.js" ></script>
+
+	</body>	
+</html>

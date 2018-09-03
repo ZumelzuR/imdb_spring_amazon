@@ -1,0 +1,19 @@
+{
+  "name": "amazon.imdb",
+  "description": "amazon test project",
+  "main": "index.html",
+  "authors": [
+    "Cristian Zumelzu"
+  ],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-bootstrap":"~0.12.0",
+    "bootstrap":"~3.0.0",
+    "angular-route":"*"
+  },
+  "resolutions": {
+    "angular": "~1.3.0"
+  }
+}

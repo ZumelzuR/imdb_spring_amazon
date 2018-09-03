@@ -1,0 +1,11 @@
+<div>
+	<input type="image" ng-src="{{vm.image}}" err-src="{{vm.movieDefaultImg}}" style="float:left" />
+	<div style="float:left; margin-left:20px;">
+		<h1 style="display: inline">{{vm.name}} ({{vm.year}})</h1>
+		<p style="width:500px">{{vm.description}}</p>
+		<h2>Cast</h2>
+		<ul ng-repeat="actor in vm.actorList">
+			<li style="line-height: 20%"><a href="#/actor/{{actor.actor_id}}">{{actor.name}}</a></li>
+		</ul>
+	</div>
+</div>
